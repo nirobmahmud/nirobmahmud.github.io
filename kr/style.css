@@ -1,0 +1,256 @@
+/*
+ * KR
+ * This Theme Coded From A Free PSD.
+ * Copyright 2013.
+ * All Rights Reserved.
+ * This Site Coded By Nirob Mahmud.
+ */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.selectnav {
+	display: none;
+}
+
+#nav {
+	display: block;
+}
+
+.cap {
+	overflow: hidden;
+}
+
+.floatleft {
+	float: left;
+}
+
+.floatright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+	margin-right: 10px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 10px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto;
+}
+
+a,a:active,a:focus,a:active {
+	text-decoration: none !important;
+}
+
+a:focus {
+	border: none;
+}
+
+img {
+	max-width: 100%;
+	border: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	margin: 0 0 15px;
+}
+/*
+ * KR
+ * This Theme Coded From A Free PSD.
+ * This Site Coded By Nirob Mahmud.
+ */
+.cpwarp {
+	width: 960px;
+	margin: 0 auto;
+	display: block;
+
+	-webkit-transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+	-ms-transition: all 0.9s ease 0s;
+	transition: all 0.9s ease 0s;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div {
+	overflow: hidden;
+}
+
+#rav > li {
+	background: url("img/border.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+	float: left;
+	padding: 5px 16px;
+}
+
+#rav > li:last-child {
+	background: none;
+}
+
+#rav > li > a {
+	color: #FFFFFF;
+	font-family: LatoLight;
+	padding: 3px;
+	text-transform: uppercase;
+}
+
+#cav > li {
+	float: left;
+}
+
+#cav li a {
+	background: url("img/social.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	display: inline-block;
+	padding: 6px 20px;
+	text-indent: -999px;
+}
+
+#cav li.fb a {
+	background-position: 0px 0px;
+}
+
+#cav li.tw a {
+	background-position: -41px 0;
+}
+
+#cav li.gl a {
+	background-position: -82px 0;
+}
+
+.header_area {
+	background: none repeat scroll 0 0 #000000;
+}
+
+.protect {
+	padding-left: 260px;
+}
+
+.logo {
+	position: absolute;
+}
+/*
+ * KR
+ * This Theme Coded From A Free PSD.
+ * This Site Coded By Nirob Mahmud.
+ */
+.menu {
+	padding-bottom: 1px;
+	padding-left: 145px;
+	padding-top: 1px;
+}
+
+.social {
+	position: absolute;
+	top: 16px;
+}
+
+.title > h2 {
+	font-family: Perpetua Titling MT;
+	font-size: 23px;
+	padding-left: 155px;
+	padding-top: 15px;
+}
+
+.slider_area {
+	background: url("img/slider.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	height: 278px;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+ /* other browsers  and IE9+ */
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/slider.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/slider.jpg', sizingMethod='scale')";
+}
+
+.name_area {
+	border-bottom: 1px solid #CCCCCC;
+	overflow: inherit;
+}
+
+.name > img {
+	padding-right: 18px;
+}
+
+.name > h2 {
+	font-family: LatoRegular;
+	font-size: 25px;
+	margin-bottom: inherit;
+	padding-top: 130px;
+}
+
+.nam {
+	margin-bottom: -90px;
+	overflow: inherit;
+	position: relative;
+	top: -110px;
+	z-index: 99999;
+}
+
+.content_area {
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.content {
+	padding-top: 25px;
+}
+
+.main_content {
+	width: 485px;
+}
+
+.main_content > h2 {
+	font-family: LatoLight;
+	font-size: 23px;
+}
+
+.main_content > p {
+	text-align: justify;
+}
+
+.recent_work {
+	padding-left: 20px;
+	width: 475px;
+}
+
+.recent_work > h2 {
+	font-family: LatoLight;
+	font-size: 23px;
+}
+
+.recent_work_single {
+	margin-left: -10px;
+}
+
+.single_work {
+	float: left;
+	margin-left: 10px;
+	width: 145px;
+}
+/*
+ * KR
+ * This Theme Coded From A Free PSD.
+ * This Site Coded By Nirob Mahmud.
+ */
+.footer > p {
+	color: #585555;
+	font-family: LatoRegular;
+	font-size: 13px;
+	margin-bottom: inherit;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: center;
+}
+

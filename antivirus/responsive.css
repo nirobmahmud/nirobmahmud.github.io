@@ -1,0 +1,16 @@
+/* Default Layout: 992px.  */
+.structure{width:820px;}.red_rib{margin-top:25px;width:820px;}.text{width:630px;}.red_rib h2{font-family:'BitterBold', serif;font-weight:700;background:url("images/red_rib.png") repeat-x scroll 0 12px transparent;color:#FFFFFF;font-size:18px;padding:25px;text-align:center;}.right_banner{width:521px;}.left_banner{width:299px;}.left_1{background:url("images/left_banner.jpg") repeat-x scroll 0 0 transparent;margin-top:12px;padding:9px;}.left_1 h3{margin-left:44px;margin-top:6px;font-size:17;font-family:'BitterRegular', serif;font-weight:400;}.left_2{background:url("images/left_banner_2.jpg") repeat-x scroll 0 0 transparent;padding:9px;}.left_2 h3{margin-left:44px;margin-top:6px;font-size:17;font-family:'BitterRegular', serif;font-weight:400;}.left_3{background:url("images/left_banner_3.jpg") repeat-x scroll 0 0 transparent;padding:9px;}.left_3 h3{margin-left:44px;margin-top:6px;font-size:17;font-family:'BitterRegular', serif;font-weight:400;}.left_4 h3{font-family:'BitterBold', serif;font-weight:700;background:url("images/live.jpg") repeat-x scroll 0 0 transparent;color:#FFFFFF;font-size:25px;padding:15px;text-align:center;}.sidebar{width:200px;}/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){.structure{width:610px;}.red_rib{margin-top:25px;width:610px;}.text{width:440px;}.red_rib h2{background:url("images/red_rib_res.png") repeat-x scroll 0 13px transparent;color:#FFFFFF;font-family:'BitterBold',serif;font-size:15px;font-weight:500;padding:18px;text-align:center;}.right_banner{width:360px;}.left_banner{width:250px;}.left_1{background:url("images/left_banner.jpg") repeat-x scroll 0 0 transparent;margin-top:3px;padding:3px;}.left_1 h3{font-family:'BitterRegular',serif;font-size:14px;font-weight:400;margin-left:49px;margin-top:10px;}.left_2{background:url("images/left_banner_2.jpg") repeat-x scroll 0 0 transparent;padding:7px;}.left_2 h3{font-family:'BitterRegular',serif;font-size:16px;font-weight:400;margin-left:44px;margin-top:9px;}.left_3{background:url("images/left_banner_3.jpg") repeat-x scroll 0 0 transparent;margin-top:-6px;}.left_3 h3{font-family:'BitterRegular',serif;font-size:14px;font-weight:400;margin-left:44px;margin-top:6px;}.left_4 h3{background:url("images/live.jpg") repeat-x scroll 0 0 transparent;color:#FFFFFF;font-family:'BitterBold',serif;font-size:16px;font-weight:700;padding:2px;text-align:center;}.sidebar{width:200px;}}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px){.structure{width:280px;}}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px){.structure{width:450px;}

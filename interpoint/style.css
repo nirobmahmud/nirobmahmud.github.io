@@ -1,0 +1,75 @@
+/*
+ * InterPoint
+ * This Theme For Practice.
+ * Copyright 2013, .
+ * All Rights Reserved.
+ * This Site Coded By Nirob Mahmud.
+ * Coded On PSD Practice.
+ */
+*{margin:0;padding:0}
+.rcl {overflow:hidden}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:10px;}
+.alignright {float:right;margin-left:10px;}
+.aligncenter {display:block;margin:0 auto}
+a, a:active, a:focus, a:active {text-decoration:none !important}
+a:focus {border:none}
+img {max-width:100%;border:none}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;margin:0 0 15px;}
+.ground {width:960px; margin:0 auto;display:block;transition: all 0.9s ease 0s;-moz-transition: all 0.9s ease 0s;-webkit-transition: all 0.9s ease 0s;-o-transition: all 0.9s ease 0s;}
+ul {margin:0;padding:0;list-style:none}
+body {}
+.header_area{border-bottom: 1px solid #BCB9B9;margin-top: 20px;padding-bottom: 8px;}
+.head_left{}
+.logo{}
+.head_right{}
+.sign{}
+.sign ul{margin-top: 15px;float: right;}
+.sign ul li{float: left;margin:0;padding:0}
+.sign ul li a{color: #FFFFFF;padding: 14px 36px;}
+.sign ul li a:hover{}
+.sign_up{background: url("img/sign_up.png") no-repeat scroll 0 0 transparent;margin-right: 20px;}
+.login{background:url(img/login.png) no-repeat scroll 0 0;}
+.menu{font-family: arial;font-size: 16px;margin-top: 12px;}
+.menu ul{font-family: arial;font-size: 16px;}
+.menu ul li{float:left;margin:0;padding:0}
+.menu ul li a{color: #AFAEAE;padding: 8px;}
+.menu ul li a:hover{color:#4896B9;}
+.slider_area{margin-bottom: 56px;margin-top: 40px;}
+.slider_area img{width: 571px;}
+.slider_area_text{float: left;width: 379px;}
+.demo{background: url("img/watch_demo.png") no-repeat scroll 0 0 transparent;padding: 6px 5px 25px 256px;margin-left: 45px;}
+.slider_area_text h1{font-family: 'MyriadProSemibold';font-size:28px;}
+.slider_area_text p{margin-bottom: 50px;}
+.n_latter_area{background: none repeat scroll 0 0 #D9EEF7;height: 40px;padding-top: 15px;}
+.n_text{margin-left: 20px;width: 489px;}
+.n_text p{font-family: 'MyriadProSemibold';font-size: 17px;color: #181818;}
+.n_input{width: 381px;}
+.holder{border: medium none;height: 29px;margin-right: 21px;padding-left: 8px;width: 235px;}
+.submit{background: url("img/n_latter.png") no-repeat scroll 0 0 transparent;padding: 4px 45px 3px 54px;}
+.promo_area{margin-bottom: 58px;margin-top: 68px;}
+.promo{margin-left: -30px;}
+.single_promo{float: left;margin-left: 30px;width: 296px;}
+.single_promo h2{height: 55px;padding-left: 70px;}
+.single_promo p{color: #666464;font-family: arial;font-size: 16px;
+line-height: 25px;}
+.pro_one{}
+.pro_one h2{font-family: 'MyriadProSemibold';font-size:23px;background:url(img/article.png) no-repeat scroll 0 0;color:#2F7C9D;}
+.pro_two{}
+.pro_two h2{font-family: 'MyriadProSemibold';font-size:23px;background:url(img/bubble.png) no-repeat scroll 0 0;color:#2F7C9D;}
+.pro_three{}
+.pro_three h2{font-family: 'MyriadProSemibold';font-size:21px;background:url(img/mac_promo.png) no-repeat scroll 0 0;color:#2F7C9D;}
+.plans_area{}
+.p_text{width: 620px;}
+.p_text h2{font-family: 'MyriadProSemibold';font-size:22px;color:#035f88;}
+.p_text p{color: #666464;font-family: arial;font-size: 16px;line-height: 25px;}
+.p_cours{}
+.footer_area{background: url("img/foot_img.png") no-repeat scroll 0 0 transparent;height: 203px;position: relative;width: 1027px;margin-bottom: 16px;}
+.foot_left{left: 120px;position: absolute;top: 174px;}
+.foot_left p{font-family: 'MyriadProLight';font-size:12pt;}
+.foot_right{left: 665px;position: absolute;top: 174px;}
+.foot_right ul{font-family: 'MyriadProLight';font-size:12pt;}
+.foot_right ul li{float: left;margin:0;padding:0}
+.foot_right ul li a{color: #000000;padding: 5px;}
+.foot_right ul li a:hover{}

@@ -1,0 +1,74 @@
+/*
+ * PinWall
+ * This Theme For Practice.
+ * Copyright 2013, .
+ * All Rights Reserved.
+ * This Site Coded By Nirob Mahmud.
+ * Coded On PSD Practice.
+ * From A Free PSD.
+ */
+*{margin:0;padding:0;}
+.selectnav {display:none;}
+#nav {display:block}
+.rox {overflow:hidden}.floatleft {float:left}.floatright {float:right}.alignleft {float:left;margin-right:10px;}.alignright {float:right;margin-left:10px;}.aligncenter {display:block;margin:0 auto}a, a:active, a:focus, a:active {text-decoration:none !important}a:focus {border:none} img {max-width:100%;border:none;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;margin:0 0 15px;}ul {margin:0;padding:0;list-style:none}div {overflow:hidden}body {font-family: 'open_sansregular';font-size:14px;}
+.warp {width:1000px; margin:0 auto;display:block;transition: all 0.9s ease 0s;-moz-transition: all 0.9s ease 0s;-webkit-transition: all 0.9s ease 0s;-o-transition: all 0.9s ease 0s;}
+
+#rav {padding-left: 45px;padding-top: 26px;width: 230px;font-family: 'open_sansregular';font-size:16px;}
+#rav li {padding-bottom: 10px;}
+#rav li a{color:#A2A2A2;}
+#rav li a:hover{}
+#rav  a {color:#A2A2A2;}
+#jav{padding-bottom: 75px;padding-left: 95px;}
+#jav li {float: left;width: 180px;}
+#jav li a{color: #A2A2A2;padding: 48px;text-indent: -99999px;display: block;}
+#jav li a:hover{}
+#jav  a {color:#A2A2A2;}
+.header_area {background: url("img/banner_bg.jpg") repeat scroll 0 0px  rgba(0, 0, 0, 0);height: 554px;}
+.logo_area {background: url("img/menu_bg.png") no-repeat scroll 0 0 ;min-height: 456px;}
+.logo {border-bottom: 2px solid #E5E5E5;padding-bottom: 26px;padding-left: 40px;padding-top: 25px;width: 228px;}
+.logo  img {}
+.logo  img:hover {transform: rotate(360deg);transition: all 1.2s ease 0s;}
+.menu {margin: 0;width: 230px;}
+.sli_content {float: right;height: 350px;margin-top: -290px;padding-top: 50px;text-align: center;width: 700px;}
+.sli_content  p{color: #E5F3F0;font-family: 'open_sanslight';font-size: 22px;padding-bottom: 30px;padding-top: 65px;}
+.sli_content  a{}
+.tw{background: url("img/tw.png") no-repeat scroll 0 0px rgba(0, 0, 0, 0);height: 92px;}
+.tw:hover{transform: rotate(360deg);transition: all 0.7s ease 0s;}
+.dr{background: url("img/dri.png") no-repeat scroll 0 0px rgba(0, 0, 0, 0);height: 92px;}
+.dr:hover{transform: rotate(360deg);transition: all 0.7s ease 0s;}
+.box{background: url("img/cam.png") no-repeat scroll 0 0px rgba(0, 0, 0, 0);height: 92px;}
+.box:hover{transform: rotate(360deg);transition: all 0.5s ease 0s;}
+.m_button{border: 2px solid #E2F1EE;border-radius: 5px 5px 5px 5px;color: #E2F1EE;padding: 8px 30px;text-transform: uppercase;}
+.promo_logo_area {background:#F4F4F4;}
+.promo_logo_area  img {}
+.promo{padding-bottom: 15px;padding-top: 15px;}
+.mid_content_area {}
+.mid_content {padding-bottom: 40px;padding-top: 75px;text-align: center;}
+.mid_content  h2 {color: #818181;font-family: 'open_sanslight';font-size: 30px;padding-bottom: 50px;}
+.mid_content  h2  br {}
+.mid_content  p {padding-bottom: 45px;color:#A2A2A2;}
+.mid_content  a {}
+.t_button{background: none repeat scroll 0 0 #1DC896;border: 2px solid #1DC896;border-radius: 5px 5px 5px 5px;color: #FFFFFF;padding: 8px 30px;text-transform: uppercase;}
+.dubble_content_area {background: none repeat scroll 0 0 #1DC896;}
+.dubble_content {float: left;margin-right: 50px;width: 450px;}
+.protector{padding-bottom: 55px;padding-top: 55px;}
+.dubble_content h2 {color: #D8F5ED;font-family: 'open_sanslight';font-size: 24px;line-height: 30px;}
+.dubble_content  h2  br {}
+.dubble_content  p {color:#C9F2E6;}
+.contact_area {background: url("img/map_bg.jpg") no-repeat scroll 0 0px /cover rgba(0, 0, 0, 0);height: 502px;}
+.protector_two{}
+.address {background: url("img/address_bg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);float: left;height: 252px;margin-left: 71px;margin-right: 50px;
+margin-top: 245px;padding-left: 30px;padding-top: 15px;width: 335px;}
+.address h2 {font-family: 'open_sanslight';font-size: 30px;color:#ABABAB;}
+.address p {font-family: 'open_sansregular';font-size: 14px;color:#ABABAB;}
+.address  p  br {}
+.form {background: none repeat scroll 0 0 #FFFFFF;border-radius: 8px 8px 0px 0px;border-top: 10px solid #38E2B0;float: right;margin-top: 92px;padding-left: 30px;padding-right: 30px;width: 425px;}
+.form  h2 {color: #ABABAB;font-family: 'open_sanslight';font-size: 30px;padding-bottom: 20px;padding-top: 20px;}
+.form_area {}
+.form_area br {}
+.form_color {}
+.form_style {border: 1px solid #D8D8D8;height: 35px;padding-left: 10px;width: 365px;}
+.massage_style {border: 1px solid #D8D8D8;height: 85px;padding-left: 10px;width: 365px;}
+.submit_button { background: none repeat scroll 0 0 #1DC896;border: 2px solid #1DC896;border-radius: 5px 5px 5px 5px;color: #FFFFFF;float: right;margin-bottom: 55px;margin-top: 25px;padding: 8px 32px;text-transform: uppercase;}
+.dubble_content_right{float:right}

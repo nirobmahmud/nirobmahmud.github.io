@@ -1,0 +1,215 @@
+/*
+ * Whitepapers
+ * This Theme For Practice.
+ * Copyright 2013, .
+ * All Rights Reserved.
+ * This Site Coded By Nirob Mahmud.
+ * Coded On RRF Practice.
+ */
+/* Default Layout: 992px.  */
+.container{
+width:960px;
+padding:30px;
+margin:30px auto;
+}
+.single_content_area{
+width:680px;
+}
+.single_top{
+width:700px;
+margin-bottom:5px;
+}
+.single_content{
+position:relative;
+z-index:999999;
+margin:0 21px 10px 0;
+min-height:180px;
+padding:10px 3px 20px;
+width:310px;
+}
+.sidebar{
+width:200px;
+}
+.single_content img{
+float:left;
+padding-right:7px;
+}
+.shadow{
+border:2px solid #D1D1D1;
+/*border-radius*/
+-webkit-border-radius:0 0 3px 3px;
+   -moz-border-radius:0 0 3px 3px;
+        border-radius:0 0 3px 3px;
+padding-top:18px;
+position:relative;
+padding-right:8px;
+padding-left:2px;
+}
+.single_top h1{
+color:#FF6600;
+font-size:40px;
+padding-bottom:15px;
+padding-top:15px;
+}
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.selectnav {display:none;
+}
+#rav{
+display:block;
+}
+.container{
+width:760px;
+padding:18px;
+margin:25px auto;
+}
+.single_content_area{
+width:532px;
+}
+.single_top{
+width:496px;
+margin-bottom:0px;
+}
+.single_content{
+position:relative;
+z-index:999999;
+margin:0 10px 10px 0;
+min-height:180px;
+padding:10px 3px 15px;
+width:245px;
+}
+.sidebar{
+width:180px;
+}
+.single_content img{
+float:left;
+padding-right:0px;
+}
+.shadow{
+border:2px solid #D1D1D1;
+/*border-radius*/
+-webkit-border-radius:0 0 3px 3px;
+   -moz-border-radius:0 0 3px 3px;
+        border-radius:0 0 3px 3px;
+position:relative;
+width:250px;
+padding-top:7px;
+}
+.single_top h1{
+color:#FF6600;
+font-size:40px;
+padding-bottom:15px;
+padding-top:15px;
+}
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px){
+.selectnav {display:block;
+margin:0 auto;
+width:199px;
+}
+#rav{
+display:none;
+}
+.container{
+margin:14px auto;
+padding:15px;
+width:300px;
+}
+.single_content_area{
+width:270px;
+}
+.single_top{
+margin-bottom:0;
+width:285px;
+}
+.single_content{
+position:relative;
+z-index:999999;
+margin:0 0 10px;
+min-height:180px;
+padding:2px 3px 6px;
+width:252px;
+}
+.sidebar{
+width:200px;
+}
+.single_content img{
+float:left;
+padding-right:7px;
+}
+.shadow{
+border:2px solid #D1D1D1;
+/*border-radius*/
+-webkit-border-radius:0 0 3px 3px;
+   -moz-border-radius:0 0 3px 3px;
+        border-radius:0 0 3px 3px;
+position:relative;
+width:260px;
+}
+.single_top h1{
+color:#FF6600;
+font-size:40px;
+padding-bottom:15px;
+padding-top:15px;
+text-align:center;
+}
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+.selectnav {display:none;
+margin:0 auto;
+}
+#rav{
+display:block;
+}
+.container{
+width:470px;
+padding:15px;
+margin:40px auto;
+}
+.single_content_area{
+width:290px;
+}
+.single_top{
+margin-bottom:0px;
+width:295px;
+}
+.single_content{
+position:relative;
+z-index:999999;
+min-height:180px;
+width:295px;
+}
+.sidebar{
+width:135px;
+}
+.single_content img{
+float:left;
+padding-right:7px;
+}
+.shadow{
+border:2px solid #D1D1D1;
+/*border-radius*/
+-webkit-border-radius:0 0 3px 3px;
+   -moz-border-radius:0 0 3px 3px;
+        border-radius:0 0 3px 3px;
+position:relative;
+width:287px;
+}
+.single_top h1{
+color:#FF6600;
+font-size:40px;
+padding-bottom:15px;
+padding-top:15px;
+text-align:left;
+}

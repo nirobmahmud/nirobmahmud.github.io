@@ -1,0 +1,222 @@
+/*
+ * Webfolio
+ * This Theme Coded From A Free PSD.
+ * Copyright 2013.
+ * All Rights Reserved.
+ * This Site Coded By Nirob Mahmud.
+ */
+/* Default Layout:  992px.  */
+.warp {
+	width: 960px;
+	margin: 0 auto;
+	display: block;
+}
+
+.info {
+	width: 590px;
+}
+
+.skills {
+	width: 300px;
+}
+
+.info_left img {
+	top: 1195px;
+}
+
+.info_right {
+	float: right;
+}
+
+div.single_portfolio {
+	width: 208px;
+}
+
+.skills h2 {
+	padding-top: 35px;
+}
+
+.info_left {
+	width: 315px;
+}
+
+.testimonial {
+	width: 545px;
+}
+
+/* Tablet Layout:  768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.warp {
+	margin: 0 auto;
+	width: 750px;
+}
+
+.selectnav {
+	display: none;
+}
+
+#rav {
+	display: block;
+}
+
+.info {
+	width: 440px;
+}
+
+.skills {
+	width: 275px;
+}
+
+.info_left img {
+	top: 1435px;
+}
+
+.info_right {
+	float: right;
+	padding-right: 92px;
+	padding-top: 10px;
+}
+
+div.single_portfolio {
+	width: 208px;
+}
+
+.skills h2 {
+	padding-top: 35px;
+}
+
+.info_left {
+	width: 315px;
+}
+
+.testimonial {
+	width: 545px;
+}
+
+}
+
+/* Mobile Layout:  320px. */
+@media only screen and (max-width: 767px) {
+	.warp {
+	width: 210px;
+}
+
+.selectnav {
+	display: block;
+	margin: 0 auto;
+	width: 195px;
+}
+
+#rav {
+	display: none;
+}
+
+.info {
+	width: 210px;
+}
+
+.skills {
+	width: 209px;
+}
+
+.info_left img {
+	top: 3435px;
+	width: 15%;
+}
+
+.info_right {
+	float: right;
+}
+
+div.single_portfolio {
+	width: 208px;
+}
+
+.skills h2 {
+	padding-top: 0px;
+}
+
+.info_left {
+	width: 212px;
+}
+
+.logo {
+	float: inherit;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.testimonial {
+	width: 395px;
+}
+
+.progress {
+	width: 169px;
+}
+
+}
+
+/* Wide Mobile Layout:  480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.warp {
+	width: 450px;
+}
+
+.selectnav {
+	display: block;
+	height: 29px;
+	margin: 0 auto;
+	width: 170px;
+}
+
+#rav {
+	display: none;
+}
+
+.info {
+	width: 590px;
+}
+
+.skills {
+	padding-bottom: 20px;
+	width: 370px;
+}
+
+.info_left img {
+	padding-right: 15px;
+	top: 1904px;
+}
+
+.info_right {
+	float: left;
+	padding-top: 8px;
+	width: 210px;
+}
+
+div.single_portfolio {
+	width: 204px;
+}
+
+.skills h2 {
+	padding-top: 0px;
+}
+
+.menu {
+	padding-top: 50px;
+}
+
+.info_left {
+	margin-top: -5px;
+	width: 238px;
+}
+
+.logo {
+	float: left;
+	margin-bottom: 20px;
+}
+
+.testimonial {
+	width: 545px;
+}
+
+}

@@ -1,0 +1,380 @@
+/*
+ * Bijoy
+ * This Theme Coded From A PSD
+ * Copyright 2013.
+ * All Rights Reserved.
+ * This Page Coded By Nirob Mahmud.
+ */
+*{margin:0;padding:0;}
+.selectnav {display:none;}
+#nav {display:block}
+.fix {overflow:hidden}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:10px;}
+.alignright {float:right;margin-left:10px;}
+.aligncenter {display:block;margin:0 auto}
+a, a:active, a:focus, a:active {text-decoration:none !important}
+a:focus {outline:0px solid}
+img {max-width:100%}
+h1, h2, h3, h4, h5, h6 {font-family: 'MyriadProCondensed';font-weight:normal;margin:0 0 15px;}
+.codes {width:960px; margin:0 auto;display:block;transition: all 0.9s ease 0s;-moz-transition: all 0.9s ease 0s;-webkit-transition: all 0.9s ease 0s;-o-transition: all 0.9s ease 0s;}
+ul {margin:0;padding:0;list-style:none}
+body {font-family: 'MyriadProLight';font-size:18px;}
+ul#mobile_menu {display:none;}
+div{overflow:hidden;}
+#rav {
+}
+
+#rav > li {
+	float: left;
+	padding: 15px;
+}
+#rav > li  a{
+	color: #FFFFFF;
+	padding: 10px;
+	text-transform: uppercase;
+
+}
+#rav > li a:hover{
+	background: none repeat scroll 0 0 #297CB3;
+	padding-bottom: 18px;
+	padding-top: 18px;
+
+}
+.header_area {
+	background: url("img/top_bg.png") no-repeat 0 0  rgba(0, 0, 0, 0);
+	background-attachment:scroll;
+	background-size:cover;
+}
+
+.header {
+}
+
+.logo {
+	padding-bottom: 40px;
+	padding-top: 50px;
+}
+
+.logo > img {
+}
+
+.menu {
+	background: none repeat scroll 0 0 #4599D1;
+	margin-bottom: 60px;
+	opacity: 0.85;
+}
+
+.perso_area {
+	background: url("img/white_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.personal {
+	padding-top: 50px;
+}
+
+.per_line{
+	background: url("img/shape.png") no-repeat scroll 335px 25px rgba(0, 0, 0, 0);
+}
+
+.personal .per_line > h2 {
+	background: none repeat scroll 0 0 #3699DB;
+	padding: 10px;
+	width: 25%;
+	color:#fff;
+	text-transform: uppercase;
+}
+
+.pbar{
+	margin: 20px;
+	width: 31%;
+}
+
+.pbar li{
+	line-height: 26px;
+}
+
+.pbar li a{
+
+}
+
+/*
+ * Bijoy
+ * This Page Coded By Nirob Mahmud.
+ */
+.social{
+	padding-top: 45px;
+}
+
+.social li{
+}
+
+.social li a.fb{background-position: 0 0;}
+.social li a.tw{background-position: -40px 0;}
+.social li a.be{background-position: -80px 0;}
+.social li a.dr{background-position: -118px 0;}
+.social li a.sk{background-position: -155px 0;}
+
+.social li a{
+	background: url("img/social.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	display: block;
+	float: left;
+	height: 32px;
+	text-indent: -5555px;
+	width: 40px;
+
+}
+
+.social li a:hover{
+}
+
+.progress_total{
+}
+
+.primary {
+	float: left;
+	margin: 20px;
+	width: 30%;
+}
+
+.sub {
+	float: left;
+	width: 40%;
+}
+
+.sub > li {
+}
+
+.sub_desc {
+}
+
+.sub_desc > li {
+}
+
+.details {
+	padding-bottom: 40px;
+	padding-left: 10px;
+}
+
+.details > img {
+	float: left;
+	margin-right: 15px;
+}
+
+.details > p {
+}
+
+.skills {
+	padding-bottom: 25px;
+}
+
+.skills > img {
+}
+
+.experi_area {
+	background: url("img/dark_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.experience {
+	color: #FFFFFF;
+	padding-bottom: 35px;
+	padding-top: 40px;
+}
+
+.experience .per_line > h2 {
+	background: none repeat scroll 0 0 #3699DB;
+	padding: 10px;
+	width: 25%;
+	color:#fff;
+	text-transform: uppercase;
+}
+
+.experience_main {
+	background: url("img/side_bg.png") no-repeat scroll left 22px rgba(0, 0, 0, 0);
+	padding-left: 35px;
+	padding-top: 0;
+	padding-bottom: 35px;
+}
+/*
+ * Bijoy
+ * This Page Coded By Nirob Mahmud.
+ */
+.experience_main_one {
+	padding-top: 21px;
+}
+
+.experience_main_one > h4 {
+}
+
+.experience_main_one > p {
+}
+
+.experience_main_two {
+}
+
+.experience_main_two > h4 {
+}
+
+.experience_main_two > p {
+}
+
+.experience_main_three {
+	padding-top: 25px;
+}
+
+.experience_main_three > h4 {
+}
+
+.experience_main_three > p {
+}
+
+.education {
+	background: url("img/side_bg.png") no-repeat scroll left 22px rgba(0, 0, 0, 0);
+	padding-left: 35px;
+	padding-top: 0;
+	padding-bottom: 10px;
+
+}
+
+.education.per_line > h2 {
+	background: none repeat scroll 0 0 #3699DB;
+	padding: 10px;
+	width: 25%;
+	color:#fff;
+	text-transform: uppercase;
+}
+
+.education_one {
+	padding-top: 21px;
+}
+
+.education_one > h4 {
+}
+
+.education_one > p {
+}
+
+.education_two {
+	padding-top: 30px;
+}
+
+.education_two > h4 {
+}
+
+.education_two > p {
+}
+
+.education_three {
+}
+
+.education_three > h4 {
+}
+
+.education_three > p {
+}
+
+.portfolio_area {
+	background: url("img/white_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.portfolio {
+	padding-bottom: 35px;
+	padding-top: 35px;
+}
+
+.portfolio .per_line > h2 {
+	background: none repeat scroll 0 0 #3699DB;
+	padding: 10px;
+	width: 25%;
+	color:#fff;
+	text-transform: uppercase;
+}
+
+.portfolio > img {
+	margin-left: 25px;
+	padding-top: 20px;
+}
+
+.contact_area {
+	background: url("img/white_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.contact {
+	padding-bottom: 50px;
+}
+
+.contact .per_line > h2 {
+	background: none repeat scroll 0 0 #3699DB;
+	padding: 10px;
+	width: 25%;
+	color:#fff;
+	text-transform: uppercase;
+	
+}
+
+.map_area {
+}
+
+.map {
+}
+
+.map > img {
+}
+
+.map_info {
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.map_info > p {
+}
+
+.con_form {
+}
+
+.form_area {
+	float: left;
+	width: 50%;
+}
+
+.form_area > br {
+}
+
+.form_color {
+}
+
+.form_style {
+	border: 2px solid #438FC1;
+	height: 30px;
+	padding-left: 8px;
+	width: 85%;
+}
+
+.massage_style {
+	border: 2px solid #438FC1;
+	height: 110px;
+	padding-left: 5px;
+	width: 85%;
+}
+
+.submit_button {
+	background: none repeat scroll 0 0 #438FC1;
+	border: medium none;
+	color: #FFFFFF;
+	margin-top: 25px;
+	padding: 10px 25px;
+}
+
+.footer_area {
+	background: none repeat scroll 0 0 #2C3E50;
+}
+
+.footer {
+}
+
+.footer > p {
+	color: #FFFFFF;
+	margin-bottom: inherit;
+	padding-bottom: 6px;
+	padding-top: 6px;
+}

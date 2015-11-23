@@ -1,0 +1,72 @@
+/* Default Layout: 992px.  */
+.warp{width:980px; margin:0 auto;}
+.container_inner{margin: 5px auto;width: 970px;}
+.content{width: 675px;}
+.sidebar{width: 280px;}
+.single_footer_one{padding-left: 20px;width: 238px;}
+.single_footer_two{padding-left: 20px;width: 242px;}
+.single_footer_three{padding-left: 20px;width: 242px;}
+.single_footer_four{padding-left: 20px;width: 238px;}
+.offer{width: 965px;}
+.content h2{padding-top: 20px;}
+.footer_top{}
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.warp {width:750px}
+.selectnav {display:none;}
+#rav {display:block}
+.container_inner{margin: 5px auto;width: 740px;}
+.content{width: 530px;}
+.sidebar{width: 190px;}
+.single_footer_one{padding-left: 5px;width: 180px;}
+.single_footer_two{padding-left: 5px;width: 180px;;}
+.single_footer_three{padding-left: 5px;width: 180px;}
+.single_footer_four{padding-left: 5px;width: 190px;}
+.offer{width: 99.3%;}
+.content h2{padding-top: 20px;}
+.footer_top{}
+
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.warp {width:300px;margin:0 auto;}
+.selectnav {display: block;margin: 7px auto;}
+#rav {display:none}
+.container_inner{margin: 5px auto;width: 293px;}
+.content{width: 285px;}
+.sidebar{width: 280px;}
+.single_footer_one{padding-left: 20px;width: 242px;}
+.single_footer_two{margin-left: 5px;padding-left: 20px;width: 242px;}
+.single_footer_three{margin-left: 5px;margin-top: 5px;padding-left: 20px;width: 242px;}
+.single_footer_four{margin-left: 5px;margin-top: 5px;padding-left: 20px;width: 242px;}
+.offer{width: 965px;}
+.content h2{font-size: 21px;padding-top: 4px;}
+.footer_top{display: block;margin: 5px 20px auto;}
+
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.warp{width:450px;margin:0 auto;}
+.selectnav {display: block;margin: 6px 166px auto;}
+#rav {display:none}
+.container_inner{margin: 5px auto;width: 440px;}
+.content{width: 290px;}
+.sidebar{width: 135px;}
+.single_footer_one{padding-left: 17px;width: 213px;}
+.single_footer_two{padding-left: 17px;width: 213px;}
+.single_footer_three{padding-left: 17px;width: 213px;}
+.single_footer_four{padding-left: 17px;width: 213px;;}
+.offer{width: 965px;}
+.content h2{padding-top: 20px;font-size: 18px;}
+.footer_top{display: block;margin: 5px -1px auto;}
+
+}

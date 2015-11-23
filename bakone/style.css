@@ -1,0 +1,486 @@
+/*
+ * BAK-ONE
+ * This Theme Coded From A Free PSD.
+ * Copyright 2013.
+ * All Rights Reserved.
+ * This Site Coded By Nirob Mahmud.
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.selectnav {
+	display: none;
+}
+
+#nav {
+	display: block;
+}
+
+.cap {
+	overflow: hidden;
+}
+
+.floatleft {
+	float: left;
+}
+
+.floatright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+	margin-right: 10px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 10px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto;
+}
+
+a,a:active,a:focus,a:active {
+	text-decoration: none !important;
+}
+
+a:focus {
+	border: none;
+}
+
+img {
+	max-width: 100%;
+	border: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	margin: 0 0 15px;
+}
+
+.warpc {
+	width: 960px;
+	margin: 0 auto;
+	display: block;
+
+	-webkit-transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+	-ms-transition: all 0.9s ease 0s;
+	transition: all 0.9s ease 0s;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	font-family: LatoRegular;
+	font-size: 14px;
+}
+
+div {
+	overflow: hidden;
+}
+
+#rav > li {
+	float: left;
+	padding: 8px;
+}
+
+#rav > li > a {
+	color: #7F7F7F;
+	padding: 9px;
+}
+
+#rav > li > a:hover,.active {
+	background: none repeat scroll 0 0 #1BBC9B;
+	color: #FFFFFF;
+}
+
+#cav > li {
+	background: none repeat scroll 0 0 #1BBC9B;
+	color: #FFFFFF;
+	cursor: pointer;
+	float: left;
+	margin-right: 12px;
+	padding: 7px 15px;
+}
+
+#cav > li:active {
+	font-weight: 700;
+}
+
+#cav > li > a {
+	background: none repeat scroll 0 0 #1BBC9B;
+	color: #FFFFFF;
+	padding: 10px;
+}
+
+.header {
+	padding-bottom: 18px;
+	padding-top: 25px;
+}
+
+/*
+ * BAK-ONe
+ * This Site Coded By Nirob Mahmud.
+ */
+.slider_area {
+background: url("img/slider_bg.jpg") no-repeat scroll center center rgba(0, 0, 0, 0);
+height: 453px;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-ms-background-size:cover;
+background-size: cover;
+background-color: #615E59;
+ /* other browsers  and IE9+ */
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/slider_bg.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/slider_bg.jpg', sizingMethod='scale')";
+
+}
+.slider_content {
+	color: #FFFFFF;
+	padding-top: 60px;
+	text-align: center;
+	width: 612px;
+}
+
+.slider_content > h1 {
+	font-family: LatoBold;
+	font-size: 55px;
+}
+
+.slider_content > h1 > span {
+	font-family: Latolight;
+	font-size: 55px;
+}
+
+.slider_content > p {
+	font-family: LatoLight;
+	font-size: 18px;
+}
+
+.l_button {
+	background: none repeat scroll 0 0 #1BBC9B;
+	color: #FFFFFF;
+	padding: 8px 10px;
+}
+
+.l_button_d {
+	height: 40px;
+	padding-bottom: 80px;
+	padding-top: 40px;
+}
+
+/*
+ * BAK-ONe
+ * This Site Coded By Nirob Mahmud.
+ */
+.portfolio_title {
+	margin: 0 auto;
+	padding-bottom: 35px;
+	padding-top: 50px;
+	text-align: center;
+	width: 415px;
+}
+
+.portfolio_title > h2 {
+	font-family: LatoRegular;
+	font-size: 28px;
+}
+
+.portfolio_title > p {
+	font-family: LatoRegular;
+	font-size: 16px;
+}
+
+.portfolio_filter {
+	margin: 0 auto;
+	padding-bottom: 45px;
+	padding-left: 20px;
+	width: 498px;
+}
+
+#nm .mix {
+	display: none;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+.portfolio_single {
+	margin-left: -40px;
+	padding-bottom: 25px;
+}
+
+.single_portfolio {
+	float: left;
+	margin-left: 40px;
+	padding-bottom: 40px;
+	width: 207px;
+	position: relative;
+}
+
+.single_portfolio:hover .hover_text {
+	display: block;
+}
+
+.hover_text {
+	background: url("img/p_hover.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	display: none;
+	height: 100%;
+	left: 0;
+	padding-right: 25px;
+	padding-top: 100px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 100%;
+}
+
+.hover_text h3 {
+	color: #FFFFFF;
+	font-family: LatoRegular;
+	font-size: 18px;
+	padding-top: 15px;
+}
+
+.about_area {
+	background: none repeat scroll 0 0 #16A086;
+}
+
+/*
+ * BAK-ONe
+ * This Site Coded By Nirob Mahmud.
+ */
+.about_title {
+	color: #FFFFFF;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	padding-top: 55px;
+	text-align: center;
+	width: 415px;
+}
+
+.about_title > h2 {
+	font-family: LatoRegular;
+	font-size: 28px;
+}
+
+.about_title > p {
+	font-family: LatoRegular;
+	font-size: 16px;
+}
+
+.about_single {
+	margin-left: 25px;
+	padding-bottom: 70px;
+}
+
+.single_about_item {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-bottom: 3px solid #333333;
+	float: left;
+	margin-left: 60px;
+	width: 220px;
+	position: relative;
+}
+
+.single_about_item:hover .about_hover_text {
+	display: block;
+}
+
+.about_hover_text {
+	display: none;
+	height: 146px;
+	left: 0;
+	margin: 0 18px;
+	padding-top: 100px;
+	position: absolute;
+	top: 0;
+	width: 192px;
+}
+
+#hover_item {
+	background: #fff;
+}
+
+#hover_item li {
+	background: none repeat scroll 0 0 #2E957E;
+	background: none repeat scroll 0 0 #2E957E;
+	float: left;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	padding: 8px;
+}
+
+/*
+ * BAK-ONe
+ * This Site Coded By Nirob Mahmud.
+ */
+#hover_item li a {
+	padding: 5px 15px;
+	background: url("img/social_hover.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	display: inline-block;
+	text-indent: -999px;
+}
+
+#hover_item li.fb a {
+	background-position: 0 0;
+}
+
+#hover_item li.tw a {
+	background-position: -35px 0;
+}
+
+#hover_item li.gl a {
+	background-position: -80px 0;
+}
+
+#hover_item li.dr a {
+	background-position: -122px 0;
+}
+
+.single_about_item > h3 {
+	font-family: LatoRegular;
+	font-size: 18px;
+	margin-bottom: inherit;
+	padding-bottom: inherit;
+	padding-top: 18px;
+	text-align: center;
+}
+
+.single_about_item > p {
+	padding: 8px;
+}
+
+.single_about_item >.desc {
+	font-family: LatoItalic;
+	font-size: 14px;
+	padding-bottom: 0;
+	padding-top: inherit;
+	text-align: center;
+}
+
+.contact_title {
+	margin: 0 auto;
+	padding-bottom: 45px;
+	padding-top: 50px;
+	text-align: center;
+	width: 415px;
+}
+
+.contact_title > h2 {
+	font-family: LatoRegular;
+	font-size: 28px;
+}
+
+/*
+ * BAK-ONe
+ * This Site Coded By Nirob Mahmud.
+ */
+.contact_title > p {
+	font-family: LatoRegular;
+	font-size: 16px;
+}
+
+.contact_content {
+	padding-bottom: 55px;
+}
+
+.contact_left {
+	width: 505px;
+}
+
+.form_color {
+	font-family: LatoItalic;
+	font-size: 14px;
+}
+
+.form_style {
+	border: 2px solid #C6CBCE;
+	height: 40px;
+	margin-bottom: 28px;
+	margin-left: 16px;
+	padding-left: 8px;
+	width: 220px;
+}
+
+.massage_style {
+	border: 2px solid #C6CBCE;
+	height: 148px;
+	margin-left: 15px;
+	padding-left: 7px;
+	padding-top: 10px;
+	width: 460px;
+}
+
+.submit_button {
+	background: none repeat scroll 0 0 #1BBC9B;
+	border: medium none;
+	color: #FFFFFF;
+	float: right;
+	margin-right: 30px;
+	margin-top: 25px;
+	padding: 8px 30px;
+}
+
+.contact_right > h3 {
+	font-family: LatoRegular;
+	font-size: 14px;
+}
+
+.contact_right >.place {
+	background: url("img/place.png") no-repeat scroll 0 5px rgba(0, 0, 0, 0);
+	padding-left: 15px;
+}
+
+.contact_right >.phone {
+	background: url("img/phone.png") no-repeat scroll 0 5px rgba(0, 0, 0, 0);
+	padding-left: 18px;
+}
+
+.contact_right >.fax {
+	background: url("img/print.png") no-repeat scroll 0 5px rgba(0, 0, 0, 0);
+	padding-left: 18px;
+}
+
+.contact_right >.mail {
+	background: url("img/email.png") no-repeat scroll 0 6px rgba(0, 0, 0, 0);
+	padding-left: 18px;
+}
+
+/*
+ * BAK-ONe
+ * This Site Coded By Nirob Mahmud.
+ */
+.footer_area {
+	background: none repeat scroll 0 0 #2D3E50;
+}
+
+.footer_left {
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+.footer_left > p {
+	color: #FFFFFF;
+	font-family: LatoRegular;
+	font-size: 14px;
+	margin-bottom: inherit;
+}
+
+.footer_right {
+	padding-top: 15px;
+}

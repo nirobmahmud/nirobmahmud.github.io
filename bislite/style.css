@@ -1,0 +1,92 @@
+*{margin:0;padding:0}
+body {font-family:Iskoola Pota;color:#666;font-size:16px;line-height:20px;background:#ffffff}
+h1, h2, h3, h4, h5, h6{font-family: arial;font-weight: bold;margin-bottom: 16px;text-transform: uppercase;}
+p{text-align:justify;}
+a{text-decoration:none}
+.fix{overflow:hidden;}
+.floatleft{float:left}
+.floatright{float:right}
+.structure{width:820px;margin:0 auto;display:block;}
+.header_area{background: url("images/footer_bg.png") repeat-x scroll 0 0 #E8EBF1;
+margin-bottom: 0;
+padding: 30px;}
+.logo{margin-left: 9px;margin-top: 4px;margin-bottom: 6px;}
+.logo h1{font-size: 41px;margin-bottom: 18px;margin-top: 15px;}
+.menu{margin-bottom: -5px;}
+.menu ul{margin:0;padding:0;list-style:none}
+.menu ul li{float:left;border-right:1px solid #fff;}
+.menu ul li a{color: #666;display: block;padding: 12px;}
+.menu ul li a:hover{background:#ffffff;border-top:6px solid #2AACC8;}
+.slider{background:#82E4ED;}
+.slider_img{background: url("images/slider.jpg") repeat scroll 0 0 transparent;
+height: 303px;
+margin-bottom: 25px;
+margin-top: 20px;}
+.slider_text{color: #FFFFFF;
+line-height: 55px;
+margin-left: 46px;
+margin-top: 48px;}
+.slider_text h1{font-size:35px}
+.promotions{background: url("images/footer_bg.png") repeat-x scroll 0 0 #E8EBF1;
+margin-top: 0;}
+.promo{margin-top: 40px;}
+.single_promo{margin-right: -17px;
+padding-bottom: 19px;
+padding-right: 34px;
+padding-top: 10px;
+width: 188px;}
+.single_promo h2{font-size: 13px;font-weight: bold;padding-bottom: 10px;padding-left: 48px;padding-top: 12px;}
+.promo_one h2{background:url(images/promo_one.png) no-repeat scroll 0 0}
+.promo_two h2{background:url(images/promo_two.png) no-repeat scroll 0 0}
+.promo_three h2{background:url(images/promo_three.png) no-repeat scroll 0 0}
+.promo_four h2{background:url(images/promo_four.png) no-repeat scroll 0 0}
+.lastest_work_area{margin-top: 15px;padding-bottom: 17px;}
+.lastest_work_area h2{background: url("images/latest_icon.png") no-repeat scroll 0 0 transparent;
+border-bottom: 1px solid #D9D9D9;font-size: 15px;font-weight: bold;padding-left: 20px;padding-bottom: 11px;padding-top: 3px;}
+.lastest_work{}
+.lastest_work img{padding:5px;background:#ffffff;margin-right:5px;float:left;width:190px;height:150px;}
+.leatest{}
+.testimonial_area{margin-top: 10px;}
+.testimonial{}
+.client_talk{margin-right: 35px;width: 365px;}
+.client_talk h2{background: url("images/testimonial.png") no-repeat scroll 0 0 transparent;
+border-bottom: 1px solid #D9D9D9;font-size: 15px;font-weight: bold;padding-left: 32px;
+padding-bottom: 10;}
+.client_logo{width: 420px;}
+.client_logo img{width: 420px;}
+.client_logo h2{background: url("images/client.png") no-repeat scroll 0 0 transparent;
+font-size: 15px;font-weight: bold;padding-left: 32px;border-bottom: 1px solid #D9D9D9;
+margin-bottom: 19px;padding-top: 3;padding-bottom: 8px;}
+.call_to_action{background: none repeat scroll 0 0 #E8FCFE;border: 0.5px solid #81E4ED;margin-top: 20px;}
+.call_text{margin: 20px;width: 540px;}
+.call_text p{font-size:16px;}
+.button{margin: 20px;}
+.button img{width:200px;}
+.footer_area{margin-top:15px;background:url(images/footer_bg.png) repeat-x scroll 0 0 #E8EBF1;}
+.footer_area h2{font-size: 15px;font-weight: bold;}
+.footer_top{margin-top: 26px;}
+.footer{}
+.footer_info{margin-right: 10px;width: 200px;}
+.footer_info_two{margin-right: 10px;width: 200px;}
+.footer_list{}
+.footer_list ul{list-style: none outside none;margin: 0;padding: 0;margin-top: -7px;}
+.footer_list ul li{padding-bottom: 3px;padding-left: 0;padding-top: 7px;}
+.footer_list ul li a{color: #666;display: block;}
+.footer_list ul li a:hover{}
+.footer_list_last{margin-right: 10px;}
+.footer_list_last ul{margin:0;padding:0;list-style:none}
+.footer_list_last ul li{float: left;margin-right: 5px;margin-top: 7px;}
+.footer_list_last ul li a{display:block;color:#000;display:block;color:#000;}
+.footer_list_last ul li a:hover{}
+.f_one{margin-left: 13px;margin-right: 10px;}
+.f_two{margin-left: 7px;margin-right: 28px;}
+
+.footer_two{margin-top: 16px;
+padding-bottom: 25px;
+padding-top: 19px;}
+.footer_bottom{}
+.copyright{margin-left: 8px;}
+.designedby{}
+.designedby img{margin-right: 7px;margin-top: 5px;width: 115px;}
+.{}
+.{}

@@ -1,0 +1,35 @@
+/*
+ * Font File For IndoTourism.
+ * This Theme Coded From A Free PSD.
+ * Copyright 2013.
+ * All Rights Reserved.
+ * This File Created By Nirob Mahmud.
+ */
+@font-face {
+    font-family: 'SegoeWPRegular';
+    src: url('segoewp.eot');
+    src: url('segoewp.eot') format('embedded-opentype'),
+         url('segoewp.woff') format('woff'),
+         url('segoewp.ttf') format('truetype'),
+         url('segoewp.svg#SegoeWPRegular') format('svg');
+}
+@font-face {
+    font-family: 'SegoeWPLight';
+    src: url('segoewp-light.eot');
+    src: url('segoewp-light.eot') format('embedded-opentype'),
+         url('segoewp-light.woff') format('woff'),
+         url('segoewp-light.ttf') format('truetype'),
+         url('segoewp-light.svg#SegoeWPLight') format('svg');
+}
+/*
+ * IndoTourism
+ * Coded By Nirob Mahmud.
+ */
+@font-face {
+    font-family: 'SegoeWPSemibold';
+    src: url('segoewp-semibold.eot');
+    src: url('segoewp-semibold.eot') format('embedded-opentype'),
+         url('segoewp-semibold.woff') format('woff'),
+         url('segoewp-semibold.ttf') format('truetype'),
+         url('segoewp-semibold.svg#SegoeWPSemibold') format('svg');
+}

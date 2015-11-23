@@ -1,0 +1,42 @@
+/*
+ * Fonts File For Wings Forum 2014
+ * This Theme For Thomas Digital Design.
+ * Copyright 2012, Thomas Digital Design.
+ * All Rights Reserved.
+ * Thomas Digital Design.
+ * This FontsGheet Created By Nirob Mahmud.
+ * Coded On RRf Project.
+ */
+
+@font-face {
+    font-family: 'MyriadProCondensed';
+    src: url('myriadpro-cond.eot');
+    src: url('myriadpro-cond.eot') format('embedded-opentype'),
+         url('myriadpro-cond.woff') format('woff'),
+         url('myriadpro-cond.ttf') format('truetype'),
+         url('myriadpro-cond.svg#MyriadProCondensed') format('svg');
+}
+@font-face {
+    font-family: 'MyriadProSemibold';
+    src: url('myriadpro-semibold.eot');
+    src: url('myriadpro-semibold.eot') format('embedded-opentype'),
+         url('myriadpro-semibold.woff') format('woff'),
+         url('myriadpro-semibold.ttf') format('truetype'),
+         url('myriadpro-semibold.svg#MyriadProSemibold') format('svg');
+}
+@font-face {
+    font-family: 'MyriadProLight';
+    src: url('myriadpro-light.eot');
+    src: url('myriadpro-light.eot') format('embedded-opentype'),
+         url('myriadpro-light.woff') format('woff'),
+         url('myriadpro-light.ttf') format('truetype'),
+         url('myriadpro-light.svg#MyriadProLight') format('svg');
+}
+@font-face {
+    font-family: 'MyriadProBoldCondensed';
+    src: url('myriadpro-boldcond.eot');
+    src: url('myriadpro-boldcond.eot') format('embedded-opentype'),
+         url('myriadpro-boldcond.woff') format('woff'),
+         url('myriadpro-boldcond.ttf') format('truetype'),
+         url('myriadpro-boldcond.svg#MyriadProBoldCondensed') format('svg');
+}

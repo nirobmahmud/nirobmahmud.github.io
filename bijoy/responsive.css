@@ -1,0 +1,37 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.column {width:750px}
+ul#mobile_menu {display:none;}
+
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 766px) {
+.column {width:300px}
+span.naver-handle {background: url("img/nav.png") no-repeat scroll 0 center rgba(0, 0, 0, 0); color: #FFFFFF; display: inline-block; padding: 5px 5px 5px 27px;}
+#nav {display:none}
+ul#mobile_menu {padding:10px;display:block;cursor:pointer}
+ul#mobile_menu li{border-bottom:1px solid #222;padding:5px 0}
+ul#mobile_menu li a{color:#999}
+ul#mobile_menu li a:hover{color:#fff}
+ul#mobile_menu li ul{margin-left:20px}
+ul#mobile_menu li ul li {}
+ul#mobile_menu li ul li:first-child {border-top:3px solid #CF0000;margin-top:10px}
+ul#mobile_menu li ul li:last-child {border-bottom:0px solid #000}
+ul#mobile_menu li ul li a{}
+ul#mobile_menu li ul li a:hover{}
+
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.column {width:450px}
+.selectnav {display: block;margin: 0 auto;}
+#nav {display:none}
+
+}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'BitterBold';
+    src: url('bitter-bold.eot');
+    src: url('bitter-bold.eot') format('embedded-opentype'),
+         url('bitter-bold.woff') format('woff'),
+         url('bitter-bold.ttf') format('truetype'),
+         url('bitter-bold.svg#BitterBold') format('svg');
+}
