@@ -1,0 +1,289 @@
+@font-face {
+  font-family: 'Calibri';
+  src: url('fonts/Calibri.eot?#iefix') format('embedded-opentype'),  url('fonts/Calibri.woff') format('woff'), url('fonts/Calibri.ttf')  format('truetype'), url('fonts/Calibri.svg#Calibri') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Calibri-Bold';
+  src: url('fonts/Calibri-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/Calibri-Bold.woff') format('woff'), url('fonts/Calibri-Bold.ttf')  format('truetype'), url('fonts/Calibri-Bold.svg#Calibri-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+
+
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.nopadding {
+	padding: 0px 10px;
+}
+
+body {
+    font-family: 'Calibri';
+	font-weight: normal;
+	font-style: normal;
+    font-size: 18px;
+}
+.user_image {
+    text-align: center;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+
+.user_image img {
+    margin: 0 auto;
+    height: 150px;
+}
+.user_image h2 {
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+h2.about_head {
+    background-image: url("img/clip.png");
+    background-repeat: no-repeat;
+    padding-left: 34px;
+	text-transform: uppercase;
+	font-weight: 600;
+    font-size: 28px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+h2.personal_head {
+    background-image: url("img/clip.png");
+    background-repeat: no-repeat;
+    padding-left: 34px;
+	text-transform: uppercase;
+	font-weight: 600;
+    font-size: 28px;
+    margin-left: 8px;
+    margin-top: 10px;
+
+}
+h2.experience_head {
+    background-image: url("img/medical.png");
+    background-repeat: no-repeat;
+    padding-left: 34px;
+	text-transform: uppercase;
+	font-weight: 600;
+    font-size: 28px;
+    margin-left: 8px;
+    margin-top: 10px;
+
+}
+h2.education_head {
+    background-image: url("img/graduation.png");
+    background-repeat: no-repeat;
+    padding-left: 44px;
+	text-transform: uppercase;
+	font-weight: 600;
+    font-size: 28px;
+    margin-left: 8px;
+    margin-top: 10px;
+
+}
+h2.skills_head {
+    background-image: url("img/skills.png");
+    background-repeat: no-repeat;
+    padding-left: 44px;
+	text-transform: uppercase;
+	font-weight: 600;
+    font-size: 28px;
+    margin-left: 8px;
+    margin-top: 10px;
+	margin-bottom: 22px;
+
+}
+h2.hobbies_head {
+    background-image: url("img/clip.png");
+    background-repeat: no-repeat;
+    padding-left: 34px;
+	text-transform: uppercase;
+	font-weight: 600;
+    font-size: 28px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.about_data {
+    border: 1px solid #abd5f0;
+    border-radius: 5px;
+    padding: 15px 15px 10px 15px;
+    text-align: justify;
+}
+.personal_data {
+    border: 1px solid #abd5f0;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+	margin-top: 20px;
+}
+
+.education_data {
+    border: 1px solid #abd5f0;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+	margin-top: 20px;
+}
+
+.skills_data {
+    border: 1px solid #abd5f0;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+	margin-top: 20px;
+}
+
+.experience_data {
+    border: 1px solid #abd5f0;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+	margin-top: 20px;
+}
+.hobbies_data {
+    border: 1px solid #abd5f0;
+    border-radius: 5px;
+    padding: 10px 10px 12px 10px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+section.about .row, section.hobbies .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.main_padding_opt {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.left_ul {
+    list-style: none; 
+}
+.right_ul {
+    list-style: none; 
+}
+.left_ul li {
+    font-weight: 600;
+    line-height: 34px;
+}
+.right_ul li {
+    line-height: 34px;
+}
+.single_info_data {
+    background-image: url("img/tool.png");
+    background-repeat: no-repeat;
+    padding-left: 23px;
+    margin-top: 26px;
+}
+.single_info_data h3 {
+    font-size: 20px;
+}
+.single_info_data h4 {
+    color: #3498db;
+}
+.single_skill_bar p {
+    color: #3498db;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.single_skill_bar .progress {
+    margin-bottom: 10px;
+    height: 16px;
+    border-radius: 6px;
+}
+.single_hobbies {
+    text-align: center;
+    padding-top: 15px;
+    background: rgba(91, 172, 226, 0.12);
+    padding-bottom: 6px;
+    margin-left: 12px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 12px;
+    width: 139px;
+}
+.single_hobbies:hover {
+    background: #fff;
+
+}
+.single_hobbies img {
+    width: auto;
+    height: 58px;
+}
+.single_skill_bar.ilstra p {
+    color: #EE9F2F;
+}
+.single_skill_bar.management p {
+    color: #51AC51;
+}
+.cv section.header {
+    margin-top: 60px;
+}
+p.identity {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+p.date {
+    font-size: 20px;
+}
+h3.name_dear {
+    margin-bottom: 23px;
+}
+h2.sign_name {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+section.footer {
+    margin-bottom: 50px;
+}
+section.main_body {
+    text-align: justify;
+}
+section.header .btn.btn-primary {
+    background-image: none;
+    border-radius: 0;
+    background-color: #777;
+    border: 0px;
+    color: #e8e8e8;
+    display: block;
+}
+.single_info_data h5 {
+    font-size: 17px;
+}
